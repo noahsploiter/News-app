@@ -49,7 +49,7 @@ export default function Home({ posts }) {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="mt-10 md:flex-wrap-reverse md:w-full md:pl-[20px] md:pr-[20px] space-y-10 md:flex md:flex-row md:justify-center md:space-x-6 flex flex-col  items-center  md:space-y-10 md:mt-0">
+      <div className="mt-10 md:flex-wrap-reverse md:w-full md:pl-[20px] md:pr-[20px] space-y-10 md:flex md:flex-row md:justify-center md:space-x-6 flex flex-col-reverse  items-center  md:space-y-10 md:mt-0">
         {posts.map((post) => (
           <BlogCard
             title={post.title}
